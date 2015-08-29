@@ -534,6 +534,7 @@ public class CannonView extends SurfaceView
     } // end method onTouchEvent
 
     // Thread subclass to control the game loop
+    //Basically what is happening is this thread is updating the View CannonView
     private class CannonThread extends Thread
     {
         private SurfaceHolder surfaceHolder; // for manipulating canvas
